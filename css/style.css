@@ -1,0 +1,127 @@
+img{
+  width:300px;
+  height: 300px;
+  margin-left:80px;
+  margin-bottom:0px 
+  
+}
+.sticky {
+  position: sticky;
+  font-size: 32px;
+  top: 0;
+  width: 100%;
+  height: 0px;
+  padding: 0px;
+  background:black;
+  color: white;
+  text-align: center;
+ transition: .32s;
+ margin-top:20spx; 
+}
+
+.fixed {
+  font-size: 24px;
+  position: fixed;
+  height: 20px;
+  transition: .25s;
+}
+
+.top {
+  text-align: center;
+  background: white;
+  color: #fff;
+}
+
+.bottom {
+  padding: 5em 0;
+  background:black;
+  color: white;
+}
+p{
+  color:white;
+}
+span{
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  height: 1000%;
+  font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background:black;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 1200px;
+	height:10px ;
+}
+
+header {
+  background:black;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 120px;
+  padding-top: 0px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #444;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 0px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
