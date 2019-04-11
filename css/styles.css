@@ -1,17 +1,23 @@
+img{
+  width: 450px;
+  margin-left: 100px
+}
 body{
-    background-color:black
+  background-color: antiquewhite
 }
-{
-    width:500px;
-    height:500px
-}
+
 h1{
+  
+font-family: 'Tangerine', cursive;
     text-align: center;
-    color:white;
-    text-decoration: underline
+    color:black;
+    text-decoration: underline;
+    font-weight: bold;
 }
 p{
-color: antiquewhite
+color:black;
+font-family: 'Just Another Hand', cursive;
+font-size: 30px
 }
 .container {
     display: inline-block;
@@ -49,7 +55,7 @@ color: antiquewhite
   padding: 0;
   
   /* make it look decent enough */
-  background: #232323;
+  background: white;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
