@@ -1,3 +1,4 @@
+
 img{
   width: 450px;
   margin-left: 100px
@@ -8,16 +9,17 @@ body{
 
 h1{
   
-font-family: 'Tangerine', cursive;
+  font-family: 'Caveat', cursive;
     text-align: center;
-    color:black;
-    text-decoration: underline;
+    color:white;
     font-weight: bold;
+    font-size: 50px
+
 }
 p{
-color:black;
-font-family: 'Just Another Hand', cursive;
-font-size: 30px
+color:white;
+font-family: 'Raleway', cursive;
+font-size: 16px;
 }
 .container {
     display: inline-block;
@@ -55,7 +57,7 @@ font-size: 30px
   padding: 0;
   
   /* make it look decent enough */
-  background: white;
+  background:black;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
