@@ -16,7 +16,7 @@ img{
   color: white;
   text-align: center;
  transition: .32s;
- margin-top:20spx; 
+ margin-top:20px; 
 }
 
 .fixed {
@@ -75,13 +75,10 @@ header::after {
   clear: both;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
-}
+
 
 nav {
-  float: right;
+  float: left;
 }
 
 nav ul {
