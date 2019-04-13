@@ -5,14 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CONTACT</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Dancing+Script|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cont.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="js/script.js"></script>
    
 </head>
 <body>
-  <h3>Tell me something.</h3>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+            <ul id="menu">
+              <a href="home.html"><li>HOME</li></a>
+              <a href="#"><li>BLOG</li></a>
+              <a href="#"><li>ABOUT</li></a>
+              <a href="#"><li>CONTACT</li></a> 
+            </ul>
+        </div>
+      </nav>
+      
+  <div class="container">
+  <h1>CONTACT ME</h1>
+  <div class="form">
+  <h6>Tell me something..I'll be sure to reply in lightning speed.</h>
   <form action="https://formspree.io/bjnzivu@gmail.com" method="POST">
+    <div class="yes">
       <label>
           Name
           <input type="text" name="name" class="name"/>
@@ -27,9 +48,13 @@
       </label>
       <label>
           Message
-          <textarea name="message" class="message" cols="40" rows="15"></textarea>
+          <textarea name="message" class="message" cols="50" rows="13"></textarea>
       </label>
       <button type="submit" class="submit">Send</button>
   </form>
+</div>
+</div>
+</div>
+
 </body>
 </html>
