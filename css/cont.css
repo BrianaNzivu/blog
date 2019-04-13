@@ -6,7 +6,11 @@ img{
     margin-left: 100px
   }
 textarea{
- 
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 500px;
+    height: 200px;
   border: 2px solid rgb(48, 201, 228);
 }
   body{
@@ -20,7 +24,7 @@ textarea{
       color:white;
       font-weight: bold;
       font-size: 50px;
-      margin-left: 
+      margin-left: 200px
   
   }
   h6{
@@ -72,10 +76,10 @@ textarea{
       font-family: monospace;
   }
   .form{
-      margin-left: 80px;
+      margin-left: 40px;
   }
   .yes{
-      margin-top: 50px;
+      margin-top: 30px;
   }
   .container {
       display: inline-block;
@@ -258,3 +262,14 @@ textarea{
   {
     transform: none;
   }
+  .submit{
+      width: 100px;
+      height:40px;
+      color: rgb(255, 234, 44);
+      border-radius: 25px;
+      border: 2px solid rgb(255, 234, 44);
+      padding: 10px;
+      background-color: transparent; 
+  }  
+
+
