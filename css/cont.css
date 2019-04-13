@@ -32,6 +32,8 @@ textarea{
       font-weight: bolder;
       font-size: 15px;
       margin-top: 20px;
+      text-decoration: underline;
+      
   }
   .name{
       width:300px;
@@ -275,5 +277,12 @@ textarea{
       background-color: transparent; 
   }  
 .ig{
+  margin-left:40px;
  
+}img{
+  width:30px;
+  margin-left: 40px
+}
+a{
+  color: white
 }
