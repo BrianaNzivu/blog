@@ -254,6 +254,9 @@ textarea{
     padding: 10px 0;
     font-size: 25px;
   }
+  .ig{
+      width:100px
+  }
   
   /*
    * And let's slide it in from the left
@@ -271,5 +274,6 @@ textarea{
       padding: 10px;
       background-color: transparent; 
   }  
-
-
+.ig{
+ 
+}
