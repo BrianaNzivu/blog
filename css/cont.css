@@ -9,7 +9,7 @@ textarea{
     border-radius: 25px;
     border: 2px solid #609;
     padding: 20px; 
-    width: 500px;
+    width: 800px;
     height: 200px;
   border: 2px solid rgb(48, 201, 228);
 }
@@ -40,7 +40,7 @@ textarea{
     font-weight: bold;
   }
   .name{
-      width:300px;
+      width:600px;
       height: 30px;
       border-block-end-color: blue;
       border-block-start-color: yellowgreen;
@@ -53,7 +53,7 @@ textarea{
    
   }
   .email{
-    width:300px;
+    width:600px;
     height: 30px;
     border-block-end-color: blue;
     border-block-start-color: yellowgreen;
@@ -67,7 +67,7 @@ textarea{
 
   }
   .subject{
-    width:300px;
+    width:600px;
     height: 30px;
     border-block-end-color: blue;
     border-block-start-color: yellowgreen;
@@ -83,6 +83,7 @@ textarea{
   }
   .form{
       margin-left: 40px;
+      
   }
   .yes{
       margin-top: 30px;
@@ -282,6 +283,7 @@ textarea{
   }  
 .ig{
   margin-left:40px;
+  margin-top: 15px
  
 }img{
   width:30px;
@@ -290,6 +292,8 @@ textarea{
 a{
   color: white
 }
-
-  
+.twitter{
+margin-left: 50px;
+margin-top:10px
 }
+  
