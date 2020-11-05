@@ -204,26 +204,22 @@ Next, we will create a `ResponseListener`, which will contain an `onResponse` me
 
 In the `onErrorResponse` method, we will show a `Toast` message in case of an error.
 ```java
-String myUrl = "https://corona.lmao.ninja/v2/all";
-StringRequest myRequest = new StringRequest(Request.Method.GET, myUrl,
- new Response.Listener<String>() {
- @Override
- public void onResponse(String response) {
- try {
- JSONObject myJsonObject = new JSONObject(response.toString());
- totalCasesWorld.setText(jsonObject.getString("cases"));
- totalRecoveredWorld.setText(jsonObject.getString("recovered"));
- totalDeathsWorld.setText(jsonObject.getString("deaths"));
- } catch (JSONException e) {
- e.printStackTrace();
-    }
-
-  }
-
- },
-
- new Response.ErrorListener() {
- @Override
+ String myUrl = "https://corona.lmao.ninja/v2/all";
+        StringRequest myRequest = new StringRequest(Request.Method.GET, myUrl,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try{
+                            //Create a JSON object containing information from the API.
+                            JSONObject myJsonObject = new JSONObject(response.toString());
+                            totalCasesWorld.setText(myJsonObject.getString("cases"));
+                            totalRecoveredWorld.setText(myJsonObject.getString("recovered"));
+                            totalDeathsWorld.setText(myJsonObject.getString("deaths"));
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
  public void onErrorResponse(VolleyError volleyError) {
  Toast.makeText(MainActivity.this,volleyError.getMessage(),Toast.LENGTH_SHORT)
  .show();
