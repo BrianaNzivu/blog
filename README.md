@@ -1,13 +1,10 @@
 
-This article will go over using Volley to make API requests in Android applications.
+In this article, we will create an application that shows the Corona Virus statistics of the world. We will be using Volley to make the network calls.
 
 ### Introduction
-Networking in mobile applications has been around since their existence. Information is either sent or received. In the early days, networking was done on the main thread. This proved to be ineffective due to the NetworkOnMainThreadException error due to the different SDK levels. Also, running a long task on the UI thread can “freeze” the interface of a user making it simply not user friendly. When the Honeycomb version was released, making network requests on the main thread stopped. 
-With time, different classes and libraries such as AsyncTask, Retrofit, Volley, etc were introduced to carry out networking in mobile applications.
+Networking in mobile applications has been around since their existence. Information is either sent or received. In the early days, applications made network calls on the main thread. This proved to be ineffective due to the NetworkOnMainThreadException error due to the different SDK levels. Also, running a long task on the UI thread can “freeze” a user's interface, making it simply not user friendly. When Google released the Honeycomb version, making network requests on the main thread stopped. With time, different classes and libraries such as AsyncTask, Retrofit, Volley, etc. were introduced to carry out networking in mobile applications.
+Volley is an HTTP library that is used for caching and making a network request in Android applications. Google developed this library in 2013 due to the absence of an Android SDK that can carry out networking without interfering with the user experience. An API is a software that contains data used for communication between two applications. Most applications use API to receive information.
 
-Volley is an HTTP library that is used for caching and making a network request in Android applications. This library was developed by Google in 2013 due to the absence of an Android SDK that can carry out networking without interfering with the user experience of an application. An API is software that contains data used for communication between two applications. Most applications use API to receive information.
-
-In this article, we will create an application that shows the Corona Virus statistics of the world using Volley for networking.
 
 ### Classes used in Volley.
 - Request - This class contains the necessary information for making API requests.
