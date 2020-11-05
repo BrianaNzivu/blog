@@ -161,7 +161,7 @@ Open activity_main.xml and add the following lines of code;
 **Note: Some of the text views do not contain any content. The information to be displayed on these text views will be obtained from the API. Thus it is important to leave it blank.**
 
 ### Step 3 – Adding Volley to our Application.
-Add the following dependency to the app module-level `build. gradle` file:
+Add the following dependency to the app module-level `build.gradle` file:
 ```gradle
 dependencies{ 
  implementation 'com.android.volley:volley:1.1.0'
@@ -192,12 +192,12 @@ totalRecoveredWorld=(TextView)findViewById(R.id.newRecoveredWorld);
 
 getData();
 ```
-Now let's create a `getData` method outside the `onCreate method.` The `getData` method is the most significant task. This is because it contains the code that will fetch data from the API to be used in our app.
+Now let's create a `getData` method outside the `onCreate` method. The `getData` method is the most significant task. This is because it contains the code that will fetch data from the API to be used in our app.
 
 Now let us create a `getData` method outside the `onCreate` method. The `getData` method is the most significant task because it contains the code that will fetch data from the API to be used in our app.
-In the `getData` method, create a `StringRequest` and assign the NovelCOVID API Url (https://corona.lmao.ninja/v2/all) to a `String`. We are using the `StringReques`t because we want to return information in `String` form.
+In the `getData` method, create a `StringRequest` and assign the NovelCOVID API Url (https://corona.lmao.ninja/v2/all) to a `String`. We are using the `StringRequest` because we want to return information in `String` form.
 
-**Note: It is a good practice to test run test requests to ensure an API contains the information required. Platforms such as [Postman](https://www.postman.com/)can be used to do this.**
+**Note: It is a good practice to test run test requests to ensure an API contains the information required. Platforms such as [Postman](https://www.postman.com/) can be used to do this.**
 
 Next, we will create a `ResponseListener`, which will contain an `onResponse` method. In the `onResponse` method, we will create a `JSONObject` class. This class will pass the API data and then set the data from API to the respective views.
 **Note: This should be done within a try block. The parameters inside the getString()should be the same as the name given in the JSON format.**
